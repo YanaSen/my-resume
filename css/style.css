@@ -1003,7 +1003,7 @@ color: var(--txt-c-dark);
     align-items: normal;
   }
   .mobile-element{
-    display: none;
+    display: none !important;
   }
   .tablet-element{
     display: block !important;
@@ -1220,7 +1220,7 @@ color: var(--txt-c-dark);
     max-width: var(--desktop-lg);
   }
   .tablet-element{
-    display: none;
+    display: none !important;
   }
   .desktop-element{
     display: block !important;
